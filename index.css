@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+   
+}
+main{
+    background-color: rgb(240, 184, 80);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+
+}
+menu{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+
+}
+.logo{
+    background-color:rebeccapurple ;
+   flex-grow: 1;
+  
+}
+.nav{
+    background-color: brown;
+   flex-grow: 3;
+
+}
+
+.one{
+    background-color: aqua;
+  display: flex;
+    flex-basis: 80%;
+    flex-wrap: wrap;
+    
+   
+}
+content{
+background-color: blue;
+flex-grow: 1;
+
+}
+figure{
+    background-color: greenyellow;
+    flex-grow: 2;
+}
+
+.two{
+   background-color: lightslategray;
+    display: flex;
+  flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+.left{
+    background-color: pink;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+   
+    
+}
+.center{
+    background-color: lightgreen;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+   
+}
+.right{
+    background-color: lightseagreen;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 100px;
+   
+}
+.three{
+    background-color: green;
+   display: flex;
+ height: 100vh;
+ flex-wrap: wrap;
+}
+.img{
+    background-color: olive;
+    flex-grow: 1;
+}
+.content{
+    background-color: lightcoral;
+    flex-grow: 2;
+}
+
+.four{
+    background-color: lightslategray;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.aside{
+    background-color: pink;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.middle{
+    background-color: lightgreen;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.corner{
+    background-color: lightseagreen;
+    flex-grow: 1;
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.five{
+  background-color: blueviolet;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: rgb(242, 63, 93);
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.box2{
+    background-color: rgb(85, 235, 85);
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.box3{
+    background-color: rgb(11, 60, 57);
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.six{
+    background-color: cadetblue;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.figure{
+    background-color: lightsalmon;
+    flex-grow: 1;
+}
+
+.form{
+    background-color: cornflowerblue;
+    flex-grow: 2;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
